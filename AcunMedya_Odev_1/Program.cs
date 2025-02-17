@@ -1,4 +1,4 @@
-﻿// 1 - Sayının Pozitif, Negatif veya Sıfır Olduğunu Belirleme
+﻿// 1 - Determine if a Number is Positive, Negative, or Zero
 Console.Write("Enter a number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
@@ -9,7 +9,7 @@ else if (number < 0)
 else
     Console.WriteLine("Zero");
 
-// 2 - Gün İsmi Belirleme 
+// 2 - Determine Day Name
 Console.Write("Enter a number between 1-7: ");
 int day = Convert.ToInt32(Console.ReadLine());
 
